@@ -1,0 +1,15 @@
+<%= form_for :lab, url: labs_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :link %><br>
+    <%= f.text_field :link %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
